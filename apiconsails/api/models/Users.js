@@ -9,8 +9,8 @@ module.exports = {
 
   attributes: {
     nombre: {type: 'string', required: true},
-    apellido: {type: 'string', requierd: true},
-    edad: {type: 'number', requierd: true},
+    apellido: {type: 'string', allowNull: true},
+    edad: {type: 'number', required: true},
 
   },
 
